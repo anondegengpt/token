@@ -1,23 +1,46 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav';
+import Body from './components/Body';
+import Quick from './components/Quick';
+import Percent from './components/Percent';
+import Meet from './components/Meet';
+import Revenue from './components/Revenue';
+import Tax from './components/Tax';
+import Chad from './components/Chad';
+import Roadmap from './components/Roadmap';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Nav/>
+      </div>
+      <div id="body">
+        <Body/>
+      </div>
+      <div id="quick">
+        <Quick/>
+      </div>
+      <div id="percent">
+        <Percent/>
+      </div>
+      <div id="meet">
+        <Meet/>
+      </div>
+      <div id="how">
+        <Revenue/>
+      </div>
+      <div id="tax">
+        <Tax/>
+      </div>
+      <div id='chad'>
+        <Chad/>
+      </div>
+      <div id='roadmap'> 
+        <Roadmap/>
+      </div>
     </div>
   );
 }

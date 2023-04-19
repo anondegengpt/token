@@ -1,0 +1,41 @@
+
+
+.percent-container {
+    background: linear-gradient(to right, #3e3244, #a57abc 35%, #a57abc 60%,  #3e3244);  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1em;
+    padding-top: 6em;
+  }
+  
+  .percent-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .percent-txt{
+   margin-right: 4em;
+  }
+  
+  .percent-txt > h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow:
+     0 3px 5px rgb(63, 10, 85) 
+  }
+  
+  .percent-txt > h3 {
+    color: white;
+  }
+  
+  .percent-txt-1 > h2 {
+    color: white;
+    margin-top: -1em;
+  }
+  .percent-txt-1 > h1 {
+    color: white;
+    font-weight: 500;
+    text-shadow:
+     0px 3px 5px rgb(92, 17, 125) 
+  }
+  

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+.body-container {
+  /* background: linear-gradient(to right, #806091, #ea03ff); */
+  background: linear-gradient(to right, #3e3244, #a57abc 35%, #a57abc 60%,  #3e3244);
+  padding-top: 9em;
+}
+
+.body-words > h1 {
+  color: white;
+  font-family: 'Silkscreen';
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.body-words > h3 {
+  color: white;
+}
+
+.btn-container > button {
+  margin-bottom: 1em;
+}
+
+.btn-container{
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.btn {
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  position: relative;
+  background-color:#9364aa ;
+  padding: 0.7em 1.5em;
+  border-radius: 8px;
+  margin-right: 15px;
+  /* border: 2px solid white; */
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 0px 5px rgb(248, 209, 252);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: -11px;
+  right: -11px;
+  bottom: -11px;
+  border-radius: 6px;
+  border: 3px solid transparent;
+  /* border: 2px solid rgb(242, 0, 255); */
+  z-index: 1;
+  margin: 10px;
+  animation: spin 4s ease alternate infinite;
+}
+
+@keyframes spin {
+  0% {
+    border-color: #cd70ff white white white; /* set initial border color */
+  }
+  25% {
+    border-color: white #cd70ff white white;
+  }
+  50% {
+    border-color: white white #cd70ff white;
+  }
+  75% {
+    border-color: white white white #cd70ff;
+  }
+  100% {
+    border-color:  #cd70ff white white white;
+  }
+}

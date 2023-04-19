@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;400;500;600;900&display=swap');
+
+.meet-container {
+  background: linear-gradient(to right, #3e3244, #a57abc 35%, #a57abc 60%,  #3e3244);  display: flex;
+  flex-direction: row;
+  padding-top: 3em;
+  padding-left: 20em;
+  padding-bottom: 5em;
+}
+
+.meet-text {
+  width: 50%;
+  margin-left: 15em;
+  text-align: left;
+}
+
+.meet-text > h1 {
+  color: white;
+  text-shadow:
+  0px 3px 5px rgb(92, 17, 125) 
+}
+
+.meet-text > p {
+  color: white;
+  font-family: 'Noto Sans JP';
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btn-container-meet {
+  display: flex;
+  flex-direction: row;
+}
+
+.bold {
+  font-weight: 800;
+}

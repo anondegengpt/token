@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;500;600;900&display=swap');
+
+.quick-container {
+  /* background: linear-gradient(to right, #806091, #ea03ff); */
+  background: linear-gradient(to right, #3e3244, #a57abc 35%, #a57abc 60%,  #3e3244);  padding-bottom: 5em;
+  padding-top: 3em;
+}
+
+.quick-title >h1 {
+  color: white;
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+}
+

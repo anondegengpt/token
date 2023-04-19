@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;500;600;900&display=swap');
+
+.nav-container {
+  display: flex; 
+  justify-content: space-between;
+  width: 100%; 
+  padding-top: 1em;
+  height: 5em;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+  background: linear-gradient(to right, #2b232e, #9063a9 25%, #9063a9 25%, #9063a9 75%, #9063a9 75%, #2b232e);;
+}
+.nav-container > h2 {
+  margin-left: 3em; 
+  font-family: 'Silkscreen';
+  font-weight: 800;
+  font-size: 33px;
+  margin-top: 0em;
+  color: white;
+}
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  font-weight: 900; 
+  margin-right: 2em;
+  color: white;
+  
+  
+}
+.nav-list > li {
+  margin: 17px; 
+  font-family: 'Noto Sans JP';
+  font-weight: 800;
+  font-size: 16px;
+  color: white;
+}
+
+.nav-list > li:hover {
+  transform: scale(1.10);
+}
+
+
+.arrow {
+  display: inline-flex;
+  align-items: center; 
+}
+
+.arrow-down {
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+
+
+.buy-ins {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background-color: #8a57ff;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 25px !important;
+  margin-top: 8px !important;
+  
+}
+
+.buy-word {
+  color: white;
+  margin: 10px  !important;
+  width: 5em;
+}
