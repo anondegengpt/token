@@ -42,7 +42,7 @@ export default function Roadmap () {
       const textLines = columnText[i].split('\n');
       const lineHeight = 20;
       const textHeight = lineHeight * textLines.length;
-      const columnHeight = textHeight + 40;
+      // const columnHeight = textHeight + 40;
 
       // Draw column
       const x = i * columnWidth + columnWidth / 2;
@@ -91,9 +91,9 @@ export default function Roadmap () {
 
   const [numFootsteps, setNumFootsteps] = useState(1);
 
-  function handleAnimationEnd() {
-    setNumFootsteps(numFootsteps + 1);
-  }
+  // function handleAnimationEnd() {
+  //   setNumFootsteps(numFootsteps + 1);
+  // }
 
   return ( 
     <div className='roadmap-container'>
