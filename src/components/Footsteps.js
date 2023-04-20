@@ -11,7 +11,7 @@ const FootstepsAnimation = ({ numFootsteps }) => {
   // Add a new footstep to the array
   const addFootstep = () => {
     const newFootstep = (
-      <img src={Pic} alt="footsteps" className="footstep" ref={lastFootstepRef} />
+      <img src={Pic} alt='footstep' className="footstep" ref={lastFootstepRef} />
     );
     setFootsteps((prevFootsteps) => [...prevFootsteps, newFootstep]);
   };
