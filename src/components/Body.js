@@ -9,7 +9,7 @@ export default function Body () {
     <div className='body-container'>
       <div className='body-words'>
         <h1>DEGENGPT</h1>
-        <h3 >Building AI powered products for deigns, by degens</h3>
+        <h3 >Building AI powered products for designs, by degens</h3>
         <h3>The only limit is your imagination 💕 </h3>
       </div>
       <div className='btn-container'>
