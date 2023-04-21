@@ -39,3 +39,14 @@
      0px 3px 5px rgb(92, 17, 125) 
   }
   
+  @media (max-width: 767px) {
+    .percent-top {
+      flex-direction: column;
+      align-items: center;
+    }
+    .percent-txt {
+      margin-right: 0;
+      margin-bottom: 1em;
+      text-align: center;
+    }
+}
