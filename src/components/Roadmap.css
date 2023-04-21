@@ -1,7 +1,7 @@
 .roadmap-container {
     background: linear-gradient(to right, #3e3244, #a57abc 35%, #a57abc 60%,  #3e3244);
     padding-top: 3em;
-    padding-bottom: 0em;
+    padding-bottom: -3em;
   }
   
   .roadmap-title {
@@ -24,6 +24,9 @@
     padding-left: 0.5em;
     padding-right: 0em;
     width: 90%;
+    margin-right: 4em;
+    overflow: hidden; /* new line */
+    
   }
   
   .line-with-columns {
@@ -61,3 +64,15 @@
     background-color: transparent;
     border: 2px solid rgb(232, 232, 232);
   }
+
+
+ 
+
+
+  @media (max-width: 950px) {
+   .dotted-border {
+    margin-right: 5em;
+   }
+   
+   
+}
