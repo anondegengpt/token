@@ -14,13 +14,13 @@ export default function Scroller() {
             - Initial MVPs<br/>  - Website + socials<br/> - Token Stealth launch<br/>
         </SwiperSlide>
         <SwiperSlide>
-            Phase 1 <br/>
+            Phase 1 <br/><br/>
             - New Token finder powered by AI<br/>  - Community activations<br/>  - Partnerships with existing crypto<br/>    communities<br/>  - Utility token integration<br/>
         </SwiperSlide> <SwiperSlide>
-            Phase 2 <br/>
+            Phase 2 <br/><br/>
             - Major brand partnerships<br/> - AI powered NFT bot<br/> - Full scale degen web application<br/> - Expand revenue model<br/>
         </SwiperSlide> <SwiperSlide>
-            Phase 3 <br/>
+            Phase 3 <br/><br/>
             - Increase business revenue<br/>- More major partnerships<br/>
         </SwiperSlide>
 
