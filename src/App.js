@@ -5,7 +5,7 @@ import Quick from './components/Quick';
 import Percent from './components/Percent';
 import Meet from './components/Meet';
 import Revenue from './components/Revenue';
-import Tax from './components/Tax';
+// import Tax from './components/Tax';
 import Chad from './components/Chad';
 import Roadmap from './components/Roadmap';
 
@@ -32,9 +32,9 @@ function App() {
       <div id="how">
         <Revenue/>
       </div>
-      <div id="tax">
+      {/* <div id="tax">
         <Tax/>
-      </div>
+      </div> */}
       <div id='chad'>
         <Chad/>
       </div>

@@ -1,11 +1,12 @@
 import "./Body.css";
 import { FaDiscord,FaRobot } from "react-icons/fa";
+import ChadPic from '../chad.jpg'
 
 export default function Chad() {
   return (
     <div className="meet-container">
-      <div>
-        <h1> picture</h1>
+      <div className="img-container">
+      <img src={ChadPic} alt="token pic" className="token-pic" style={{size:'20em'}}/>
       </div>
       <div className="meet-text">
         <h1> CHAD</h1>

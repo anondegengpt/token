@@ -3,7 +3,9 @@ import {AiOutlineStock} from 'react-icons/ai'
 import {GiTakeMyMoney, GiGecko} from 'react-icons/gi'
 import {GoGraph} from 'react-icons/go'
 import {TbSquareLetterM} from 'react-icons/tb'
-import {FaRobot,FaDiscord} from 'react-icons/fa'
+import {FaRobot} from 'react-icons/fa'
+import {RiSendPlaneFill} from 'react-icons/ri'
+import {AiOutlineTwitter} from 'react-icons/ai'
 
 
 export default function Quick () {
@@ -14,6 +16,10 @@ export default function Quick () {
         <h1>QUICK LINKS</h1>
       </div>
       <div className='btn-container'>
+      <button className='btn'>
+          <RiSendPlaneFill/> TELEGRAM</button>
+        <button className='btn'>
+          <AiOutlineTwitter/> TWITTER</button>
         <button className='btn'>
           <GiTakeMyMoney/> BUY DEGENGPT</button>
         <button className='btn'>
@@ -30,8 +36,9 @@ export default function Quick () {
       <div className='btn-container'>
       <button className='btn'>
         <FaRobot/> ADD DEGENGPT - TELEGRAM</button>
-      <button className='btn'>
-        <FaDiscord/> ADD DEGENGPT - DISCORD</button>
+        
+      {/* <button className='btn'>
+        <FaDiscord/> ADD DEGENGPT - DISCORD</button> */}
       </div>
     </div>
   )

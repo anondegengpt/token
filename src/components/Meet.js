@@ -1,5 +1,6 @@
 import "./Meet.css";
 import {FaRobot,FaDiscord} from 'react-icons/fa'
+import TokenPic from '../token.jpg'
 
 
 export default function Meet() {
@@ -7,8 +8,8 @@ export default function Meet() {
   // <span className="bold"></span>
   return (
     <div className="meet-container">
-      <div>
-        <h1> picture</h1>
+      <div className="img-container">
+          <img src={TokenPic} alt="token pic" className="token-pic" style={{size:'20em'}}/>
       </div>
       <div className="meet-text">
         <h1> Meet DegenGPT</h1>
