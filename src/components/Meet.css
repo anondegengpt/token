@@ -45,6 +45,7 @@
 .token-pic {
   overflow: hidden;
   box-sizing: border-box;
+  position: relative;
   display: block;
   width: 90%;
   height: 650px;
@@ -79,5 +80,9 @@
   .btn-container-meet {
     flex-direction: column;
     margin-top: 1em;
+  }
+  .token-pic {
+    padding-top: 0em;
+    margin-left: 1.5em;
   }
 }
