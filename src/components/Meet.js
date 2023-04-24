@@ -1,5 +1,5 @@
 import "./Meet.css";
-import {FaRobot} from 'react-icons/fa'
+// import {FaRobot} from 'react-icons/fa'
 import TokenPic from '../token.jpg'
 
 
@@ -9,7 +9,8 @@ export default function Meet() {
   return (
     <div className="meet-container">
       <div className="img-container">
-          <img src={TokenPic} alt="token pic" className="token-pic" style={{size:'20em'}}/>
+      <div className="img-bg-meet" />
+          <img src={TokenPic} alt="token pic" className="token-pic" style={{size:'20em', marginTop: '25em'}}/>
       </div>
       <div className="meet-text">
         <h1> Meet DegenGPT</h1>
@@ -58,7 +59,7 @@ export default function Meet() {
           🚀
         </p>
         <div className="btn-container-meet">
-          <button className="btn"> <FaRobot/> ADD DEGENGPT - TELEGRAM</button>
+          {/* <button className="btn"> <FaRobot/> ADD DEGENGPT - TELEGRAM</button> */}
           {/* <button className="btn"><FaDiscord/> ADD DEGENGPT - DISCORD</button> */}
         </div>
       </div>

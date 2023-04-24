@@ -1,5 +1,5 @@
 import "./How.css";
-import {FaRobot} from 'react-icons/fa'
+// import {FaRobot} from 'react-icons/fa'
 
 
 export default function Revenue() {
@@ -46,7 +46,7 @@ export default function Revenue() {
         </p>
         <br />
         <div className="how-left-btn">
-          <button className="btn"><FaRobot/> ADD TELEGRAM</button>
+          {/* <button className="btn"><FaRobot/> ADD TELEGRAM</button> */}
           {/* <button className="btn"><FaDiscord/> ADD DISCORD</button> */}
         </div>
       </div>

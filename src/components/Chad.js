@@ -1,13 +1,15 @@
 import "./Body.css";
-import {FaRobot } from "react-icons/fa";
+// import {FaRobot } from "react-icons/fa";
 import ChadPic from '../chad.jpg'
 
 export default function Chad() {
   return (
     <div className="meet-container">
       <div className="img-container">
-      <img src={ChadPic} alt="token pic" className="token-pic" style={{size:'20em'}}/>
+        <div className="img-bg" />
+      <img src={ChadPic} alt="token pic" className="token-pic" style={{ marginTop: '25em'}} />
       </div>
+
       <div className="meet-text">
         <h1> CHAD</h1>
         <p>
@@ -58,10 +60,10 @@ export default function Chad() {
           ultimate AI-powered trading assistant. </span>
         </p>
         <div className="btn-container-meet">
-          <button className="btn">
+          {/* <button className="btn"> */}
             {" "}
-            <FaRobot /> ADD DEGENGPT - TELEGRAM
-          </button>
+            {/* <FaRobot /> ADD DEGENGPT - TELEGRAM */}
+          {/* </button> */}
           {/* <button className="btn">
             <FaDiscord /> ADD DEGENGPT - DISCORD
           </button> */}
