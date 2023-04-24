@@ -1,5 +1,5 @@
 import "./Meet.css";
-import {FaRobot,FaDiscord} from 'react-icons/fa'
+import {FaRobot} from 'react-icons/fa'
 import TokenPic from '../token.jpg'
 
 
@@ -59,7 +59,7 @@ export default function Meet() {
         </p>
         <div className="btn-container-meet">
           <button className="btn"> <FaRobot/> ADD DEGENGPT - TELEGRAM</button>
-          <button className="btn"><FaDiscord/> ADD DEGENGPT - DISCORD</button>
+          {/* <button className="btn"><FaDiscord/> ADD DEGENGPT - DISCORD</button> */}
         </div>
       </div>
     </div>

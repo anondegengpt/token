@@ -1,5 +1,5 @@
 import "./Body.css";
-import { FaDiscord,FaRobot } from "react-icons/fa";
+import {FaRobot } from "react-icons/fa";
 import ChadPic from '../chad.jpg'
 
 export default function Chad() {
@@ -62,9 +62,9 @@ export default function Chad() {
             {" "}
             <FaRobot /> ADD DEGENGPT - TELEGRAM
           </button>
-          <button className="btn">
+          {/* <button className="btn">
             <FaDiscord /> ADD DEGENGPT - DISCORD
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

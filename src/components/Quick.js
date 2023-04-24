@@ -10,6 +10,10 @@ import {AiOutlineTwitter} from 'react-icons/ai'
 
 export default function Quick () {
 
+  function handleClick(url) {
+    window.open(url, '_blank');
+  }
+
   return (
     <div className='quick-container'>
       <div className='quick-title'> 
@@ -18,7 +22,7 @@ export default function Quick () {
       <div className='btn-container'>
       <button className='btn'>
           <RiSendPlaneFill/> TELEGRAM</button>
-        <button className='btn'>
+        <button className='btn' onClick={() => handleClick('https://twitter.com/degen_gpt?s=11&t=YjbURnI-JnkiqOVuMu_MYA')}>
           <AiOutlineTwitter/> TWITTER</button>
         <button className='btn'>
           <GiTakeMyMoney/> BUY DEGENGPT</button>
