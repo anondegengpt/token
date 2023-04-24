@@ -22,7 +22,7 @@ const FootstepsAnimation = ({ numFootsteps }) => {
       if (footsteps.length < numFootsteps) {
         addFootstep();
       } else {
-        clearInterval(intervalId);
+        setFootsteps([]);
       }
     }, 500); // Change this value to adjust the speed of the animation
 

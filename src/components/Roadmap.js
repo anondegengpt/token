@@ -111,7 +111,7 @@ export default function Roadmap() {
       <div className='dotted-border'>
         <div className='footsteps'>
           {window.innerWidth < 767 ? (
-            <FootstepsAnimation numFootsteps={3} />
+            <FootstepsAnimation numFootsteps={2} />
           ) : (
             <FootstepsAnimation numFootsteps={8} />
           )}
