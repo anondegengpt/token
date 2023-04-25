@@ -3,7 +3,7 @@ import {AiOutlineStock} from 'react-icons/ai'
 import {GiTakeMyMoney, GiGecko} from 'react-icons/gi'
 import {GoGraph} from 'react-icons/go'
 import {TbSquareLetterM} from 'react-icons/tb'
-import {FaRobot} from 'react-icons/fa'
+// import {FaRobot} from 'react-icons/fa'
 import {RiSendPlaneFill} from 'react-icons/ri'
 import {AiOutlineTwitter} from 'react-icons/ai'
 
@@ -38,8 +38,8 @@ export default function Quick () {
           <TbSquareLetterM/> COINMARKETCAP</button>
       </div>
       <div className='btn-container'>
-      <button className='btn'>
-        <FaRobot/> ADD DEGENGPT - TELEGRAM</button>
+      {/* <button className='btn'>
+        <FaRobot/> ADD DEGENGPT - TELEGRAM</button> */}
         
       {/* <button className='btn'>
         <FaDiscord/> ADD DEGENGPT - DISCORD</button> */}
